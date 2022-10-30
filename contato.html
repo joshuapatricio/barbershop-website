@@ -38,7 +38,7 @@
                 <label for="mensagem">Mensagem:</label>
                 <textarea cols="60"rows="10" id="mensagem" class="input-padrao"required></textarea>
                 
-                <fieldset>
+                <fieldset class="opcao-escolha">
                     <legend>Como prefere nosso contato?</legend>
                     <label for="radio-email"> <input type="radio" name="contato"value="E-mail" id="radio-email">E-mail</label>
 
@@ -47,7 +47,7 @@
                     <label for="radio-whatsapp"><input type="radio" name="contato"value="whatsapp" id="radio-whatsapp">Whatsapp</label>
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="opcao-horario">
                     <legend>Qual horário prefere ser atendido?</legend>
                     <select>
                         <option>Manhã</option>
@@ -60,26 +60,7 @@
 
                 <input type="submit" value="Enviar" class="enviarinput">
             </form>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>Dia</th>
-                        <th>Horário</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Segunda à Sexta</td>
-                        <td>08h-20h</td>
-                    </tr>
-                    <tr>
-                        <td>Sábado</td>
-                        <td>08h-16h</td>
-                </tbody>
-            </table>
        </main>
-       
        <footer>
            <img src="logo-branco.png" id="logofooter" alt="logotipo">
            <p><char>&#169</char> Copyright - Barbearia Alura 2022</p>

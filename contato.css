@@ -116,6 +116,17 @@ form label, form legend
     padding:10px 25px;
 	width: 50%;
 }
+.opcao-escolha, .opcao-escolha legend
+{
+	display:block;
+	margin:0 0 15px;
+	padding:10px 0px;
+}
+.opcao-horario
+{
+	display:block;
+	margin:0 0 15px;
+}
 select
 {
 	width: 250px;
@@ -127,7 +138,7 @@ select
 }
 .checkbox
 {
-	margin: 20px 0;
+	margin: 30px 0;
 }
 
 .enviarinput
@@ -152,26 +163,6 @@ select
 .enviarinput:active
 {
 	color: #fffb00;
-}
-table
-{
-	margin:20px 0 40px;
-	margin-left: 50px;
-}
-thead
-{
-	background: #555555;
-	color: white;
-	text-transform: uppercase;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-td,th
-{
-	border: 1px solid black;
-	padding: 8px 15px;
-	text-align: center;
-	font-size: 14px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 footer
 {
